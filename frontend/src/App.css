@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; /* New modern font */
+  background-color: #2e3440; /* Dark background */
+  color: #d8dee9; /* Light text color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+}
+
+.App-header {
+  background: linear-gradient(45deg, #ff6f61, #d08770); /* Gradient background */
+  padding: 40px 60px; /* Increased padding */
+  border-radius: 0 0 50% 50%; /* Unique bottom rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  color: #2e3440; /* Dark text color */
+  margin-bottom: 40px; /* More space below header */
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Full width */
+  max-width: 800px; /* Max width */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; /* Increased gap between elements */
+  width: 100%; /* Full-width form */
+  max-width: 500px; /* Increased max width */
+  padding: 30px;
+  border: 1px solid #4c566a; /* Dark border */
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Slightly more pronounced shadow */
+  background-color: #3b4252; /* Dark background color */
+}
+
+input, select, button {
+  width: 100%; /* Full-width inputs */
+  padding: 14px; /* Increased padding */
+  margin: 8px 0; /* Consistent margin */
+  border: 1px solid #4c566a; /* Dark border */
+  border-radius: 6px; /* More rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly more pronounced shadow */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+input:focus, select:focus, button:focus {
+  outline: none; /* Remove default outline */
+  border-color: #88c0d0; /* Highlight border on focus */
+  box-shadow: 0 0 10px rgba(136, 192, 208, 0.5); /* Glow on focus */
+}
+
+button {
+  background-color: #88c0d0; /* Button background */
+  color: #2e3440; /* Dark text */
+  cursor: pointer; /* Pointer cursor */
+}
+
+button:hover {
+  background-color: #81a1c1; /* Darker button on hover */
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%; /* Full-width labels */
+  font-weight: bold; /* Bold labels */
+  color: #eceff4; /* Light text color */
+}
+
+h2 {
+  margin-top: 25px;
+  font-size: 28px; /* Larger font size */
+  color: #88c0d0; /* Theme color */
+}
