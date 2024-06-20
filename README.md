@@ -23,6 +23,7 @@ A web application for simulating CPU scheduling algorithms using React for the f
 
    ```bash
    git clone https://github.com/kpraveenkumar19/CPUScheduler
+   # download it and go that directory 
   
 
 2. **Install dependencies**
